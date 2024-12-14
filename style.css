@@ -1,0 +1,43 @@
+/* Set the background and font styles for the entire page */
+body {
+    font-family: Georgia, serif; /* Georgia font with serif fallback */
+    background-color: #f9f9f9;  /* Light gray background */
+    color: #333;               /* Dark text color */
+    margin: 20px;
+    line-height: 1.6;          /* Better readability */
+}
+
+/* Style the main heading */
+h1 {
+    color: #4a90e2;            /* Soft blue color */
+    text-align: center;        /* Center the heading */
+    font-size: 2.5em;
+}
+
+/* Style the paragraph */
+p {
+    font-size: 1.1em;          /* Slightly larger text for readability */
+    text-align: center;
+}
+
+/* Style the list of links */
+ul {
+    list-style-type: none;     /* Remove bullet points */
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin: 10px 0;            /* Add space between list items */
+}
+
+a {
+    text-decoration: none;     /* Remove underline from links */
+    color: #1a73e8;            /* Google-blue link color */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3;            /* Darker blue on hover */
+    text-decoration: underline;/* Underline on hover */
+}
